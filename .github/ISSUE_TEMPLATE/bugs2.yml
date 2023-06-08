@@ -9,7 +9,7 @@ body:
     attributes:
       value: Thanks for taking the time to fill out this Change Request report!
   - type: dropdown
-    id: test
+    id: test2
     attributes:
       label: API Components
       description: brief
