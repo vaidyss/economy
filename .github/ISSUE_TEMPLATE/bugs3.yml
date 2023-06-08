@@ -5,15 +5,6 @@ labels: ["feature"]
 assignees:
   - Vaidyeshwaran-S
 body:
-  - type: dropdown
-    id: test2
-    attributes:
-      label: APComponents
-      description: brief1
-      options:
-        - APIc
-        - BlueAPI 
-        - APIHub
   - type: textarea
     attributes:
       label: "Overview"
