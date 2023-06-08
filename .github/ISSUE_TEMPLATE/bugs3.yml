@@ -11,7 +11,7 @@ body:
   - type: dropdown
     id: test2
     attributes:
-      label: API Components
+      label: APComponents
       description: brief1
       options:
         - APIc (Default)
