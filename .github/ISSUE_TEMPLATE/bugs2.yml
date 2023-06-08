@@ -34,7 +34,7 @@ body:
       options:
         - APIc (Default)
         - BlueAPI (edge)
-	- API Hub
+	- APIHub
   - type: textarea
     id: Description
     attributes:
