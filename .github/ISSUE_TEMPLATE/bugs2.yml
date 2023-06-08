@@ -12,7 +12,7 @@ body:
     id: test2
     attributes:
       label: API Components
-      description: brief
+      description: brief1
       options:
         - APIc (Default)
         - BlueAPI 
