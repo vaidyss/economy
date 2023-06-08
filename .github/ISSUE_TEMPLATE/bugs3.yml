@@ -14,7 +14,7 @@ body:
       label: APComponents
       description: brief1
       options:
-        - APIc (Default)
+        - APIc
         - BlueAPI 
         - APIHub
   - type: textarea
