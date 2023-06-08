@@ -24,7 +24,7 @@ body:
       placeholder: Tell us what you see!
       value: "Brief Changes"
     validations:
-      required: true
+      required:true
   - type: dropdown
     id: Which Product Component
     attributes:
