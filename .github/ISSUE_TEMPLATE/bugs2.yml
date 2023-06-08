@@ -1,42 +1,51 @@
-name: "Change Request"
-description: File a Change Request for API Economy Products report
-title: "[Change Request]:"
-labels: feature
+name: "Feature Form"
+description: "Use this form for creating new features."
+title: "Feature Request"
+labels: ["feature"]
 assignees:
   - Vaidyeshwaran-S
 body:
   - type: markdown
     attributes:
       value: Thanks for taking the time to fill out this Change Request report!
-  - type: input
-    id: contact
+  - type:input
+    id:contact
     attributes:
-    label: Contact Details
-    description: How can we get in touch with you if we need more info?
-    placeholder: ex. email@example.com
+        label:Contact
+        description: How can we get in touch with you if we need more info?
+        placeholder: ex. email@example.com
     validations:
-    - type: textarea
-    id: what-feature
-    attributes:
-      label: Request Info?
-      description: Also tell us, what did you expect to happen?
-      placeholder: Tell us what you see!
-      value: "Brief Changes"
-    validations:
-      required:true
+    required: false
   - type: dropdown
     id: test
     attributes:
-      label: Version
+      label: API Components
       description:brief
       options:
         - APIc (Default)
         - BlueAPI 
         - APIHub
   - type: textarea
-    id: Description
     attributes:
-      label: Relevant Change Request Description
-      description: Please copy and paste any relevant detail description
-      render: shell
- 
+      label: "Overview"
+      description: "Provide an overview of the feature request."
+      placeholder: "Provide information here."
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: "Requirements"
+      description: "List all requirements for ticket completion."
+      placeholder: "- [ ] List Requirements Here"
+      value: "- [ ] Requirement 1"
+  - type: textarea
+    attributes:
+      label: "Related Tickets"
+      description: "Link to any related or prior tickets."
+      placeholder: "List related tickets here if available."
+      value: "- #"
+  - type: textarea
+    attributes:
+      label: "Screenshots (if applicable)"
+      description: "Provide any relevant screenshots."
+      placeholder: "Add relevant screenshots here."
