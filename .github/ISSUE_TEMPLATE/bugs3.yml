@@ -5,9 +5,6 @@ labels: ["feature"]
 assignees:
   - Vaidyeshwaran-S
 body:
-  - type: markdown
-    attributes:
-      value: Thanks for taking the time to fill out this Change Request report!
   - type: dropdown
     id: test2
     attributes:
