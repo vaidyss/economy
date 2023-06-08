@@ -32,9 +32,9 @@ body:
       label: Version
       description: What version of our software are you running?
       options:
-       	- APIc (Default)
-       	- BlueAPI (edge)
-	- APIHub
+        - APIc (Default)
+        - BlueAPI 
+        - APIHub
   - type: textarea
     id: Description
     attributes:
