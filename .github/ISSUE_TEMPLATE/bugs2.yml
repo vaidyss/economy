@@ -33,7 +33,7 @@ body:
       description: What version of our software are you running?
       options:
         - APIc (Default)
-        - BlueAPI 
+        - BlueAPI (edge)
 	- API Hub
   - type: textarea
     id: Description
