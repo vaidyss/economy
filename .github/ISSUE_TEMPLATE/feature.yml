@@ -1,7 +1,7 @@
 name: "Feature Form2"
 description: "Use this form for creating new features."
 title: "Feature Request2"
-labels: ["feature2"]
+labels: ["feature"]
 assignees:
   - Vaidyeshwaran-S
 body:
