@@ -9,7 +9,7 @@ body:
     attributes:
       value: Thanks for taking the time to fill out this Change Request report!
   - type:input
-    id:contact
+    id:contact2
     attributes:
         label: Contacts1
         description: How can we get in touch with you if we need more info?
