@@ -1,10 +1,30 @@
-name: "Feature Form1"
+name: "Feature Form2"
 description: "Use this form for creating new features."
-title: "Feature1 Request1"
-labels: ["feature"]
+title: "Feature Request2"
+labels: ["feature2"]
 assignees:
   - Vaidyeshwaran-S
 body:
+  - type: markdown
+    attributes:
+      value: Thanks for taking the time to fill out this Change Request report!
+  - type:input
+    id:contact
+    attributes:
+        label: Contact
+        description: How can we get in touch with you if we need more info?
+        placeholder: ex. email@example.com
+    validations:
+    required: false
+  - type: dropdown
+    id: test
+    attributes:
+      label: API Components
+      description: brief
+      options:
+        - APIc (Default)
+        - BlueAPI 
+        - APIHub
   - type: textarea
     attributes:
       label: "Overview"
